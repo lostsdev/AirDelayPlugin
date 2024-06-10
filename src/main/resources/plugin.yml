@@ -1,0 +1,4 @@
+name: AirDelayPlugin
+version: '${project.version}'
+main: org.lostslvtt.airdelayplugin.AirDelayPlugin
+api-version: '1.18'
