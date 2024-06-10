@@ -1,4 +1,11 @@
 name: AirDelayPlugin
-version: '${project.version}'
 main: org.lostslvtt.airdelayplugin.AirDelayPlugin
-api-version: '1.18'
+version: 1.0
+api-version: 1.18
+commands:
+  airdelay:
+    usage: /airdelay reload
+    permission: darateria.airbypass
+permissions:
+  darateria.airbypass:
+    default: op
